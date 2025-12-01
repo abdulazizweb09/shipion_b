@@ -1,0 +1,8 @@
+[build]
+builder = "NIXPACKS"
+
+[deploy]
+start = "python main.py"
+
+[build.env]
+PYTHON_VERSION = "3.11"
